@@ -1,0 +1,216 @@
+invoice{
+}
+body{ 
+font-family:"Trebuchet Ms",Arial, Helvetica, sans-serif; font-size:12px; color:#333333;
+margin:0 auto;
+}
+#main{
+width:900px;height:auto;position:relative;border:5px solid #CCC;-moz-border-radius:80px;border-top:0px;border-bottom:0px;
+}
+#waktu{
+	width:870px;margin-top:37px;text-align:right;
+	position:absolute;top:0px;
+}
+#header {
+width:900px;height:180px;clear:both;
+border-bottom:5px solid #ccc;}
+.abso{
+	width:100%;
+	position:fixed;
+	height:50px;
+	background:#252525;z-index:1;border-bottom:5px solid #999;
+}
+.a1{
+	width:100%;
+	position:fixed;
+	height:50px;
+	background:#252525;z-index:1;border-bottom:5px solid #999;
+}
+.a2{
+	width:100%;
+	position:fixed;
+	height:50px;
+	background:#252525;z-index:1;border-bottom:5px solid #999;
+}
+.a3{
+	width:100%;
+	position:fixed;
+	height:50px;
+	background:#252525;z-index:1;border-bottom:5px solid #999;
+}
+#wrapper{
+width:898px;text-align:left;
+}
+#navigation {
+padding-bottom:10px;width:200px; margin-right:10px;
+min-height:500px; height:auto !important; 
+height:500px; float:right;
+}
+#menu {
+width:870px;text-align:right;
+height:20px;padding:15px;float:right;background:url(../images/dll/bg_header.png);
+
+}
+#menul{
+width:600px;text-align:left;z-index:2;margin-top:14px;text-align:left;word-spacing:10px;font-weight:bold;
+height:130px;padding:22px;position:absolute;top:0px;background:url(../images/dll/logo.jpg) no-repeat;
+}#m1 {
+width:870px;text-align:right;-moz-border-radius:0px 0px 5px 5px;
+height:10px;padding:15px;float:right;background:url(../images/dll/bg_m1.png);
+word-spacing:10px;font-weight:bold;
+}
+#m2{
+width:550px;text-align:left;-moz-border-radius:0px 0px 5px 5px;
+height:10px;padding:15px;position:absolute;background:url(../images/dll/bg_m2.png);
+font-weight:bold;-moz-border-radius:0px 0px 0px 5px;color:white;font-size:20px;
+}
+#menul a{
+	color:#FFF; text-decoration:none;
+}
+#menul a:hover{
+	color:#FF3;
+}
+#content {
+padding:5px;width:665px; background:#FFF;-moz-border-radius:5px;margin-top:20px; border-right:1px dashed gray;padding-bottom:120px;
+}
+#footer {
+width:870px;text-align:right;-moz-border-radius:0px 0px 5px 5px;
+height:10px;padding:15px;float:right;background:#FFF;background:url(../images/dll/bg_header.png) repeat-x; 
+word-spacing:2px;position:fixed; bottom:15px;z-index:2;border:1px solid #808000;border-top:0px;border-right:0px;border-left:0px;
+}#footer a{
+	text-decoration:none; color:#FFFFFF;
+}#footer a:hover{
+	text-decoration:underline; color:#CCC;
+}
+table{
+	font-size:12px;
+}
+#n1{
+color:white;padding-top:5px;text-indent:20px;width:auto;height:auto;border:1px solid #CCC;background:url(../images/dll/bg_header2.png);
+-moz-border-radius: 5px 5px 0px 0px;margin-bottom:10px;
+}
+
+#n11{
+margin-top:10px;padding:5px;min-width:180px;text-indent:0px;color:#666;
+width:auto;height:auto;border:1px solid #gray;background:#FFF;
+}
+
+#cari {
+	width:360px;height:35px;background-color:#55552B;margin-left:500px;padding:8px;
+	-moz-border-radius:25px 10px/10px 25px;margin-bottom:10px;clear:both;border-right: 1px solid #2F2F17;border-left: 1px solid #2F2F17;border-bottom:1px solid #2F2F17;
+}#cari div{
+	width:350px;height:26px;background-color:#FBFBFB;padding:5px;margin-bottom:10px;
+}
+
+p{margin:5px;text-align:justify;}
+a{color:#090; text-decoration:none;}a:hover{text-decoration:underline; color:#630;}
+a img{text-decoration:none;}
+.hide{
+	visibility:hidden;position:absolute;width:130px;min-height:20px;
+	height:auto;margin-top:190px;margin-left:95px;padding:10px;
+	background:#DAFDD9;text-align:left;border:1px solid #6C0;
+}
+li{
+	list-style:url(../images/dll/li.png);
+}
+li a{
+	color:#666666; text-decoration:none; text-transform:uppercase; font-weight:bold;
+	font-size:11px;
+}li a:hover{
+	text-decoration:underline; color:#F90;
+}
+.button{
+	background:url(../images/dll/bg_header2.png); color:#FFFFFF; text-transform:uppercase;
+	border:1px solid #CCC; font-size:10px; font-weight:bold; text-decoration:none;
+	cursor:pointer;	-webkit-border-radius:3px;-moz-border-radius:3px;-border-radius:3px;padding:5px;
+}.button:hover{
+	color:#666;text-decoration:none;
+}
+fieldset{
+	-moz-border-radius:20px;
+	border:0px;border-top:#CCC 1px solid;
+}legend{
+	font-size:14px; color:#333;
+	padding:10px; font-weight:bold;
+}
+.produk{
+    width:150px;height:220px;background:#F0F0F0;display:table;
+	border:1px solid #CCC;float:left;margin:5px;margin-left:20px;padding:5px;text-align: center;
+}
+.produk img{
+   margin:3px; border:#CCC 3px solid;
+}
+.qty{
+	background:#FFF;border:1px solid #CCC;-webkit-border-radius:3px;-moz-border-radius:3px;-border-radius:3px;padding:4px;
+}
+.berita{
+	background:#EBEBEB; border:1px solid #CCCCCC; padding:5px;
+	margin:5px; height:auto;
+}
+.page{
+	text-align:center; 
+	padding:5px;
+}.berita img{
+	margin-right:10px; margin-bottom:10px;
+	border:5px solid #FFFFFF;
+}.img_berita{
+	margin-right:10px; margin-bottom:10px;
+	border:5px solid #C0C0C0;
+}
+select{
+	font-size:12px;
+}
+hr{
+	border-color:#CC6;
+}
+.keranjang td{
+	background:#FFF;
+	border:1px solid #990;
+	-moz-box-shadow:3px 3px 6px 3px #ccc;
+}
+.table{
+	width:100%;
+	background:#FFF;
+}
+.table th{
+	background:url(../images/dll/bg_header.png);border:1px solid #990;
+	color:white;
+}
+.table a{
+	color:#690;
+}
+.table td{
+	border:1px solid #990;background:#FFF;
+}
+.table a{
+	text-decoration:underline;
+}.table a:hover{
+	text-decoration:none;
+}.table .button{
+	text-decoration:none;
+}
+#det_trans{
+	-moz-border-radius: 25px 10px / 10px 25px;
+background-color:#FBFBFB;margin-top:10px;
+}
+#det_user{
+	-moz-border-radius: 25px 10px / 10px 25px;
+background-color:#FBFBFB;margin-top:10px;
+}
+#det_rek{
+	-moz-border-radius: 25px 10px / 10px 25px;
+background-color:#FBFBFB;margin-top:10px;
+}
+#infoCart{
+	position:fixed;
+	bottom:19px;z-index:3;
+	padding:9px; background:#CFFBCA; border:1px solid #090;
+	overflow:hidden;
+	width:180px; height:13px; font-size:11px;-moz-border-radius:5px;
+}#infoCart:hover{
+	overflow-y:auto;
+	width:180px; height:120px;}
+#search{
+	background:url(../images/dll/search.png) no-repeat;margin-left:450px;
+	position:absolute;top:0px;width:500px;height:100px;z-index:3;padding:5px;
+}
