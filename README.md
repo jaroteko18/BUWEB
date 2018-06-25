@@ -30,7 +30,7 @@ Setting Database
 $host	= "localhost";
 $user	= "root";
 $pass	= "";
-$db		= "jatimbookstore";
+$db   = "jatimbookstore";
 ```
 
 Setting Library
