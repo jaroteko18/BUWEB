@@ -58,4 +58,4 @@ function go($url,$time){
 
  * [Jarot Eko Saputra](http://id.linkedin.com/pub/jarot-eko-saputra/44/6a8/24b)
 
-Want your name here? Go fork this repo and send pull request with your name in this file :)
+Want your name here? Go fork this repo and send pull request with your name in this file 
