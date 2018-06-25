@@ -1,6 +1,6 @@
 # BUWEB E-Commerce (PHP & NO FRAMEWORK)
 
-BUWEB is a open source project E-Commerce built on top of Pure PHP with NO Framework. :) 
+BUWEB is a open source project E-Commerce built on top of Pure PHP with NO Framework 
 
 Role :
 
